@@ -1,7 +1,7 @@
-CC = clang
+CC = gcc
 CFLAGS = -I./include -I./tests/unity -Wall -Wextra
 
-SRCS = src/ringbuffer/ring_buffer.c main.c
+SRCS = src/folder/file.c main.c
 OBJS = $(SRCS:.c=.o)
 MAIN = main.c
 TARGET = project
